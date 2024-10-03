@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "GlByJpHuayg=",
+  "success": true,
+  "projectFilePath": "C:\\DEV\\.NET\\dotnet-cybersoft\\workspace_baitap\\Phan1\\Phan1.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.i3solution.net.au/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
