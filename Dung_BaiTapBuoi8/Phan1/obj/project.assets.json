@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV\\.NET\\dotnet-cybersoft\\workspace_baitap\\Phan1\\Phan1.csproj",
+      "projectUniqueName": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\Dung_baitapBuoi8\\Phan1\\Phan1.csproj",
       "projectName": "Phan1",
-      "projectPath": "C:\\DEV\\.NET\\dotnet-cybersoft\\workspace_baitap\\Phan1\\Phan1.csproj",
+      "projectPath": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\Dung_baitapBuoi8\\Phan1\\Phan1.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\.NET\\dotnet-cybersoft\\workspace_baitap\\Phan1\\obj\\",
+      "outputPath": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\Dung_baitapBuoi8\\Phan1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
