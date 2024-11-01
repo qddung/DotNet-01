@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOP_JSON.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -26,13 +27,36 @@ namespace OOP_JSON.Helper
         public static string GetDescriptionAtt(this Enum value)
         {
             DisplayAttribute attribute = GetDisplayAtt(value);
-            return attribute != null ? attribute.Description : "";
+            return attribute != null ? (attribute.Description ?? null) : "";
+        }
+
+        public static List<Selectable<T>> GetEnumSelectable<T>() where T : Enum
+        {
+            var enumValue = GetEnumValue<T>();
+            return enumValue.Select(x =>
+            {
+                var val = x;
+                string label = GetDescriptionAtt(val);
+                return new Selectable<T>(val, label);
+            }).ToList();
+
+        }
+
+        public static List<T> GetEnumValue<T>()
+        {
+            return Enum.GetValues(typeof(T)).Cast<T>().ToList();
         }
 
         public static List<string> GetListDescription<T>() where T : Enum
         {
             var eValue = Enum.GetValues(typeof(T)).Cast<T>().Select(i => i.GetDescriptionAtt()).ToList();
             return eValue.Where(i => i != null).ToList();
+        }
+
+        public static bool CheckValueInEnum<T>(this int value) where T : Enum
+        {
+            var enumValue = GetEnumValue<T>().Select(i => (int)(object)i);
+            return enumValue.Contains(value);
         }
     }
 }
