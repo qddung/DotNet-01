@@ -61,6 +61,12 @@ namespace OOP_JSON.Model.InventoryModel
         public ProductList()
         {
             ListProduct = new List<Product>();
+            ListProduct = ReadFileJson();
+        }
+
+        private List<Product> ReadFileJson()
+        {
+            return JsonHelper.LoadDataFromFile<Product>(FilePathData);
         }
         public List<Product> ListProduct { get; set; }
 

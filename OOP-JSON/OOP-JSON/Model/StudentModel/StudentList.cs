@@ -62,7 +62,7 @@ namespace OOP_JSON.Model.StudentModel
 
         private List<Student> ReadFileJson()
         {
-            return JsonHelper.LoadDataFromFile<Student>("");
+            return JsonHelper.LoadDataFromFile<Student>(FilePathData);
         }
         private List<Student> ListStudent { get; set; }
 
