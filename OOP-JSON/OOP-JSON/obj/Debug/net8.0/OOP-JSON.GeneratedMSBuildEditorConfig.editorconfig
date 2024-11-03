@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OOP_JSON
-build_property.ProjectDir = C:\DEV\general\practice\baitap-dotnet\OOP-JSON\OOP-JSON\
+build_property.ProjectDir = c:\DEV\.NET\dotnet-cybersoft\baitap\OOP-JSON\OOP-JSON\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

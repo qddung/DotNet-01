@@ -14,6 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Database\Inventory\Inventory.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Database\Student\Students.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
