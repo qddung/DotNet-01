@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\model\\inventorymodel\\productlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\model\\inventorymodel\\productlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\model\\studentmodel\\studentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\model\\studentmodel\\studentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\model\\programmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\model\\programmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\model\\studentmodel\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\model\\studentmodel\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\model\\inventorymodel\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\model\\inventorymodel\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\database\\inventory\\inventory.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\database\\inventory\\inventory.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\helper\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\helper\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\helper\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\helper\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\model\\constanstvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\model\\constanstvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|c:\\dev\\general\\practice\\baitap-dotnet\\oop-json\\oop-json\\helper\\enumhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DB2E61-CC21-493F-B566-47DE1E7581EF}|OOP-JSON\\OOP-JSON.csproj|solutionrelative:oop-json\\helper\\enumhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 235,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Program.cs",
+              "RelativeDocumentMoniker": "OOP-JSON\\Program.cs",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Program.cs",
+              "RelativeToolTip": "OOP-JSON\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T01:25:23.895Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\StudentModel\\Student.cs",
+              "RelativeDocumentMoniker": "OOP-JSON\\Model\\StudentModel\\Student.cs",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\StudentModel\\Student.cs",
+              "RelativeToolTip": "OOP-JSON\\Model\\StudentModel\\Student.cs",
+              "ViewState": "AgIAAA0AAAAAIAAAAAD6v34AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T15:47:58.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductList.cs",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\InventoryModel\\ProductList.cs",
+              "RelativeDocumentMoniker": "OOP-JSON\\Model\\InventoryModel\\ProductList.cs",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\InventoryModel\\ProductList.cs",
+              "RelativeToolTip": "OOP-JSON\\Model\\InventoryModel\\ProductList.cs",
+              "ViewState": "AgIAAL8AAAAAZmZmZuYbwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T14:54:29.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\InventoryModel\\Product.cs",
+              "RelativeDocumentMoniker": "OOP-JSON\\Model\\InventoryModel\\Product.cs",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\InventoryModel\\Product.cs",
+              "RelativeToolTip": "OOP-JSON\\Model\\InventoryModel\\Product.cs",
+              "ViewState": "AgIAACgAAAAgZmZmZmYuwC8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T14:54:17.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Inventory.json",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Database\\Inventory\\Inventory.json",
+              "RelativeDocumentMoniker": "OOP-JSON\\Database\\Inventory\\Inventory.json",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Database\\Inventory\\Inventory.json",
+              "RelativeToolTip": "OOP-JSON\\Database\\Inventory\\Inventory.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-01T14:51:41.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Helper\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "OOP-JSON\\Helper\\JsonHelper.cs",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Helper\\JsonHelper.cs",
+              "RelativeToolTip": "OOP-JSON\\Helper\\JsonHelper.cs",
+              "ViewState": "AgIAAAcAAADAMjMzMzMjwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:32:06.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Helper\\Helper.cs",
+              "RelativeDocumentMoniker": "OOP-JSON\\Helper\\Helper.cs",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Helper\\Helper.cs",
+              "RelativeToolTip": "OOP-JSON\\Helper\\Helper.cs",
+              "ViewState": "AgIAAAgAAADAy8zMzMwkwBUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:49:44.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentList.cs",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\StudentModel\\StudentList.cs",
+              "RelativeDocumentMoniker": "OOP-JSON\\Model\\StudentModel\\StudentList.cs",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\StudentModel\\StudentList.cs",
+              "RelativeToolTip": "OOP-JSON\\Model\\StudentModel\\StudentList.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwEkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:43:17.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProgramModel.cs",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\ProgramModel.cs",
+              "RelativeDocumentMoniker": "OOP-JSON\\Model\\ProgramModel.cs",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\ProgramModel.cs",
+              "RelativeToolTip": "OOP-JSON\\Model\\ProgramModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAASwBwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:25:24.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnumHelper.cs",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Helper\\EnumHelper.cs",
+              "RelativeDocumentMoniker": "OOP-JSON\\Helper\\EnumHelper.cs",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Helper\\EnumHelper.cs",
+              "RelativeToolTip": "OOP-JSON\\Helper\\EnumHelper.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAhwB0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T02:53:01.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConstanstValue.cs",
+              "DocumentMoniker": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\ConstanstValue.cs",
+              "RelativeDocumentMoniker": "OOP-JSON\\Model\\ConstanstValue.cs",
+              "ToolTip": "C:\\DEV\\general\\practice\\baitap-dotnet\\OOP-JSON\\OOP-JSON\\Model\\ConstanstValue.cs",
+              "RelativeToolTip": "OOP-JSON\\Model\\ConstanstValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:35:52.712Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 144,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0504ff91-9d61-11d0-a794-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 682,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f2e84780-2af1-11d1-a7fa-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1ce3aef-c78d-49ee-b72b-ec1fbc908313}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 428,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
