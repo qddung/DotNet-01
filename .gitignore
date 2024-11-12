@@ -1,0 +1,38 @@
+# .NET build directories
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.sln.ide
+.vscode/
+.vs/
+
+# Dependency directories
+packages/
+.nuget/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Logs
+*.log
+
+# Rider IDE files
+.idea/
+
+# Visual Studio Code workspace
+.vscode/
+
+# Test results
+TestResults/
+
+# Published files
+publish/
+*.PublishProfiles/
