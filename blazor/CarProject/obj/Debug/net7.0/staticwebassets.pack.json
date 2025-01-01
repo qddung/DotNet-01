@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\icons\\icon-black.jpg",
+      "PackagePath": "staticwebassets\\icons\\icon-black.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\icons\\icon-red.jpg",
+      "PackagePath": "staticwebassets\\icons\\icon-red.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\icons\\icon-silver.jpg",
+      "PackagePath": "staticwebassets\\icons\\icon-silver.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\icons\\icon-steel.jpg",
+      "PackagePath": "staticwebassets\\icons\\icon-steel.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\image\\car\\car-black.jpg",
+      "PackagePath": "staticwebassets\\image\\car\\car-black.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\image\\car\\car-red.jpg",
+      "PackagePath": "staticwebassets\\image\\car\\car-red.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\image\\car\\car-silver.jpg",
+      "PackagePath": "staticwebassets\\image\\car\\car-silver.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\CarProject\\wwwroot\\image\\car\\car-steel.jpg",
+      "PackagePath": "staticwebassets\\image\\car\\car-steel.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CarProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CarProject.props",
+      "PackagePath": "build\\CarProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CarProject.props",
+      "PackagePath": "buildMultiTargeting\\CarProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CarProject.props",
+      "PackagePath": "buildTransitive\\CarProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
