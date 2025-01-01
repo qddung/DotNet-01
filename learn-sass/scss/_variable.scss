@@ -1,0 +1,30 @@
+// font size
+$fs-base: 16px;
+$fs-xl: 18px;
+$fs-2xl: 20px;
+$fs-3xl: 30px;
+$fs-4xl: 40px;
+$fs-5xl: 50px;
+
+// font weight
+$fw-light: 300;
+$fw-base: 400;
+$fw-semi: 600;
+$fw-bold: 800;
+
+// color
+$text-primary: #2a73dd;
+$text-light: #fff;
+$text-dark: #000;
+@mixin text($fs: $fs-base, $fw: $fw-base, $color: $text-primary) {
+  font-size: $fs;
+  font-weight: $fw-base;
+  color: $text-primary;
+}
+
+$lst_size: 16, 18, 20;
+@each $item  in $lst_size{
+    .f-#{$item}{
+        font-size: #{$item}px;
+    }
+}
