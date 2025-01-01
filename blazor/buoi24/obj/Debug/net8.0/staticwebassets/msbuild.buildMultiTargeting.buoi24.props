@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\buoi24.props" />
+</Project>
