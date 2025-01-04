@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FqnFswI7lk0=",
+  "dgSpecHash": "QJVER1L8lCo=",
   "success": true,
-  "projectFilePath": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\ProfileProject.csproj",
+  "projectFilePath": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\ProfileProject.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.i3solution.net.au/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }
