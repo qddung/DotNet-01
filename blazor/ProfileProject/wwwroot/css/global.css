@@ -1,0 +1,29 @@
+:root {
+  --color-primary: #bd5d38;
+  --color-whilte: white;
+}
+@font-face {
+  font-family: Mulish;
+  src: url("../font/Mulish-Black.ttf");
+  src: url("../font/Mulish-BlackItalic.ttf");
+  src: url("../font/Mulish-Bold.ttf");
+  src: url("../font/Mulish-BoldItalic.ttf");
+  src: url("../font/Mulish-ExtraBold.ttf");
+  src: url("../font/Mulish-ExtraBoldItalic.ttf");
+  src: url("../font/Mulish-Italic.ttf");
+  src: url("../font/Mulish-Light.ttf");
+  src: url("../font/Mulish-LightItalic.ttf");
+  src: url("../font/Mulish-Medium.ttf");
+  src: url("../font/Mulish-MediumItalic.ttf");
+  src: url("../font/Mulish-Regular.ttf");
+  src: url("../font/Mulish-SemiBold.ttf");
+  src: url("../font/Mulish-SemiBoldItalic.ttf");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Mulish;
+  font-style: normal;
+}
