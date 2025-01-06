@@ -6,6 +6,26 @@
   color: var(--color-whilte) !important;
 }
 
+.text-primary {
+  color: var(--color-primary) !important;
+}
+
+h1,
+.h1 {
+  font-size: calc(1.2rem + 5vw);
+  line-height: 1;
+}
+
+h2,
+.h2 {
+  font-size: calc(1.475rem + 2.7vw);
+}
+
+h3,
+.h3 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
 #sideBar {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -16,10 +36,22 @@ body {
   padding-left: 0;
 }
 
+/* side bar */
+
 .img-profile {
   max-width: 10rem;
   max-height: 10rem;
   border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+.resume-section {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
 }
 
 @media (min-width: 992px) {
@@ -43,7 +75,7 @@ body {
     height: 100vh;
     justify-content: center;
   }
-  #sideBar .navbar-collapse{
+  #sideBar .navbar-collapse {
     flex-grow: 0;
   }
 
@@ -52,4 +84,81 @@ body {
     flex-direction: column;
     justify-content: center;
   }
+}
+
+/* resume */
+p.lead {
+  font-size: 1.15 rem;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+.social-icon:hover {
+  background-color: var(--color-primary) !important;
+}
+.social-icon svg {
+  height: 1rem;
+}
+
+/* expericence-section */
+.expericence-section {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.experience-content {
+}
+
+/* Skills */
+
+.svg-inline--fa svg {
+  height: 1em;
+  font-size: 1rem;
+}
+
+
+.svg-inline--fa-dev svg{
+  height: 1em;
+  font-size: 3rem;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  margin-bottom: 0;
+  padding: 0;
+}
+.fa-ul li{
+  padding: 0;
+}
+
+.fa-li {
+  display: inline-block;
+  margin-left: -2rem;
+  width: 2rem;
+  height: 100%;
+  text-align: center;
+}
+
+.fa-li svg {
+  height: 1rem;
+  font-size: 1rem;
 }

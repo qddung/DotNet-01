@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\font.css",
+      "PackagePath": "staticwebassets\\css\\font.css"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\global.css",
+      "PackagePath": "staticwebassets\\css\\global.css"
+    },
+    {
       "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
@@ -45,16 +53,84 @@
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Black.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-Black.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Bold.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-Bold.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Italic.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-Italic.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Light.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-Light.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Medium.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-Medium.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Regular.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-Regular.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\font\\Mulish-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\image\\favicon.ico",
+      "PackagePath": "staticwebassets\\image\\favicon.ico"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\image\\favicon1.png",
+      "PackagePath": "staticwebassets\\image\\favicon1.png"
+    },
+    {
+      "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\image\\profile.jpg",
+      "PackagePath": "staticwebassets\\image\\profile.jpg"
     },
     {
       "Id": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\js\\lib\\bootstrap.bundle.min.js",

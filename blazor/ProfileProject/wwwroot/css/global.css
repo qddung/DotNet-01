@@ -1,7 +1,3 @@
-:root {
-  --color-primary: #bd5d38;
-  --color-whilte: white;
-}
 @font-face {
   font-family: Mulish;
   src: url("../font/Mulish-Black.ttf");
@@ -19,11 +15,28 @@
   src: url("../font/Mulish-SemiBold.ttf");
   src: url("../font/Mulish-SemiBoldItalic.ttf");
 }
+
+:root {
+  --color-primary: #bd5d38;
+  --color-whilte: white;
+  --bs-body-font-size: 16px;
+}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-size: 16px;
+  /* font-size: color: #6c757d;16px; */
+}
+
+html {
+  font-size: var(--bs-body-font-size);
+  /* font-family: "Muli", sans-serif; */
   font-family: Mulish;
   font-style: normal;
+  color: #6c757d;
+}
+
+body {
+  font-weight: 400;
+  color: #6c757d;
 }

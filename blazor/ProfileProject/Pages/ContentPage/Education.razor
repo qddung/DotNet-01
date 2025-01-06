@@ -1,0 +1,42 @@
+<div class="experience-content">
+    <h2 class="mb-5 text-uppercase text-dark fw-bold">Education</h2>
+    @foreach (ExItem item in ListData)
+    {
+        <ExperienceItem 
+            Title="@item.Title"
+            CompanyName ="@item.CompanyName"
+            Description ="@item.Description"
+            DurationTime="@item.DurationTime"
+            Description2 ="@item.Description2"
+        />
+    }
+</div>
+
+@code {
+    public class ExItem
+    {
+        public string Title { get; set; }
+        public string CompanyName { get; set; }
+        public string Description { get; set; }
+        public string Description2 { get; set; } = "";
+        public string DurationTime { get; set; }
+    }
+
+    public List<ExItem> ListData { get; set; } = new List<ExItem>() {
+        new ExItem() {
+            Title= "University of Colorado Boulder",  
+            CompanyName= "Bachelor of Science",
+            Description= "Computer Science - Web Development Track",
+            DurationTime= "August 2006 - May 2010",
+            Description2 = "GPA: 3.23"
+        },
+        new ExItem() {
+            Title= "James Buchanan High School",  
+            CompanyName= "Technology Magnet Program",
+            Description= "GPA: 3.56",
+            DurationTime= "August 2002 - May 2006",
+        },
+
+
+    };
+}

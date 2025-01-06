@@ -1,5 +1,42 @@
 ﻿@page "/"
-
 <PageTitle>Resume - Start Bootstraps Theme</PageTitle>
+<div class="overflow-auto vh-100">
 
-<h1>Hello, world!</h1>
+    @*
+href="#skills"
+href="#interests"
+href="#awards" *@
+
+    <section id="about" class="resume-section flex-column vh-100 d-flex justify-content-center align-item-center">
+        <ProfileTitle />
+    </section>
+
+    <hr class="m-0">
+
+    <section id="experience" class="expericence-section flex-column d-flex justify-content-center align-item-center">
+        <Expericence />
+    </section>
+
+    <hr class="m-0">
+
+
+    <section id="education" class="resume-section flex-column vh-100 d-flex justify-content-center align-item-center">
+        <Education />
+    </section>
+    <hr class="m-0">
+
+    <section id="skills" class="resume-section flex-column vh-100 d-flex justify-content-center align-item-center">
+        <Skill />
+    </section>
+    <hr class="m-0">
+
+    <section id="interests" class="resume-section flex-column vh-100 d-flex justify-content-center align-item-center">
+        <Interests />
+    </section>
+    <hr class="m-0">
+
+    <section id="interests" class="resume-section flex-column vh-100 d-flex justify-content-center align-item-center">
+        <Awards />
+    </section>
+    <hr class="m-0">
+</div>

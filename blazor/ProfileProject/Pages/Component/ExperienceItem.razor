@@ -1,0 +1,22 @@
+<div class="d-flex flex-column flex-md-row justify-content-between mb-5 info-item">
+    <div class="flex-grow-1">
+        <h3 class="mb-0 text-dark fw-bold">@Title</h3>
+        <div class="subheading mb-3 text-uppercase">@CompanyName</div>
+        <p>@Description</p>
+        <p>@Description2</p>
+    </div>
+    <div class="flex-shrink-0"><span class="text-primary">@DurationTime</span></div>
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public string CompanyName { get; set; }
+    [Parameter]
+    public string Description { get; set; }
+    [Parameter]
+    public string Description2 { get; set; } = "";
+    [Parameter]
+    public string DurationTime { get; set; }
+}
