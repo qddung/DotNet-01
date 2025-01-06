@@ -1,16 +1,19 @@
-<div class="experience-content">
-    <h2 class="mb-5 text-uppercase text-dark fw-bold">Education</h2>
-    @foreach (ExItem item in ListData)
-    {
-        <ExperienceItem 
-            Title="@item.Title"
-            CompanyName ="@item.CompanyName"
-            Description ="@item.Description"
-            DurationTime="@item.DurationTime"
-            Description2 ="@item.Description2"
-        />
-    }
-</div>
+@page "/education"
+<section id="education" class="resume-section flex-column vh-100 d-flex justify-content-center align-item-center">
+    <div class="experience-content">
+        <h2 class="mb-5 text-uppercase text-dark fw-bold">Education</h2>
+        @foreach (ExItem item in ListData)
+        {
+            <ExperienceItem 
+                Title="@item.Title"
+                CompanyName ="@item.CompanyName"
+                Description ="@item.Description"
+                DurationTime="@item.DurationTime"
+                Description2 ="@item.Description2"
+            />
+        }
+    </div>
+</section>
 
 @code {
     public class ExItem

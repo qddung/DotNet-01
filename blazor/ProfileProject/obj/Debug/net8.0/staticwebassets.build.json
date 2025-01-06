@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QmJQgHrriqOvykOVzUdE7E8bOWSeZAO8Ci58/scScgk=",
+  "Hash": "mfFKvEDpsr7FVIvWHYPVhoqbu3s9wRdkUULg+iaBByE=",
   "Source": "ProfileProject",
   "BasePath": "_content/ProfileProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ProfileProject\\wwwroot",
       "Source": "ProfileProject",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProfileProject.styles.css",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProfileProject.styles.css",
       "SourceId": "ProfileProject",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "ProfileProject.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProfileProject.styles.css"
+      "OriginalItemSpec": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProfileProject.styles.css"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProfileProject.bundle.scp.css",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProfileProject.bundle.scp.css",
       "SourceId": "ProfileProject",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "ProfileProject.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProfileProject.bundle.scp.css"
+      "OriginalItemSpec": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProfileProject.bundle.scp.css"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\font.css",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\font.css",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/font.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font.css"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\global.css",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\global.css",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/global.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\global.css"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\css\\styles.css",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Black.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Black.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-Black.ttf",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-Black.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-BlackItalic.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-BlackItalic.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-BlackItalic.ttf",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-BlackItalic.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Bold.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Bold.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-Bold.ttf",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-Bold.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-BoldItalic.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-BoldItalic.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-BoldItalic.ttf",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-BoldItalic.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraBold.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraBold.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-ExtraBold.ttf",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-ExtraBold.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraBoldItalic.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraBoldItalic.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-ExtraBoldItalic.ttf",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-ExtraBoldItalic.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraLight.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraLight.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-ExtraLight.ttf",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-ExtraLight.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraLightItalic.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-ExtraLightItalic.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-ExtraLightItalic.ttf",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-ExtraLightItalic.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Italic.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Italic.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-Italic.ttf",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-Italic.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Light.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Light.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-Light.ttf",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-Light.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-LightItalic.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-LightItalic.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-LightItalic.ttf",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-LightItalic.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Medium.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Medium.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-Medium.ttf",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-Medium.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-MediumItalic.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-MediumItalic.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-MediumItalic.ttf",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-MediumItalic.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Regular.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-Regular.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-Regular.ttf",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-Regular.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-SemiBold.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-SemiBold.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-SemiBold.ttf",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-SemiBold.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-SemiBoldItalic.ttf",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\font\\Mulish-SemiBoldItalic.ttf",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "font/Mulish-SemiBoldItalic.ttf",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Mulish-SemiBoldItalic.ttf"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\image\\favicon.ico",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\image\\favicon.ico",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "image/favicon.ico",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\image\\favicon.ico"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\image\\favicon1.png",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\image\\favicon1.png",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "image/favicon1.png",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\image\\favicon1.png"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\image\\profile.jpg",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\image\\profile.jpg",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "image/profile.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\image\\profile.jpg"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\js\\lib\\bootstrap.bundle.min.js",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\js\\lib\\bootstrap.bundle.min.js",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "js/lib/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lib\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\js\\lib\\bootstrap.min.js",
+      "Identity": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\js\\lib\\bootstrap.min.js",
       "SourceId": "ProfileProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\blazor\\ProfileProject\\wwwroot\\",
+      "ContentRoot": "C:\\DEV\\general\\practice\\baitap-dotnet\\blazor\\ProfileProject\\wwwroot\\",
       "BasePath": "_content/ProfileProject",
       "RelativePath": "js/lib/bootstrap.min.js",
       "AssetKind": "All",

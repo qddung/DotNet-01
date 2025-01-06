@@ -9,87 +9,87 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProfileProject
 build_property.RootNamespace = ProfileProject
-build_property.ProjectDir = C:\DEV\.NET\dotnet-cybersoft\baitap\blazor\ProfileProject\
+build_property.ProjectDir = C:\DEV\general\practice\baitap-dotnet\blazor\ProfileProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\DEV\.NET\dotnet-cybersoft\baitap\blazor\ProfileProject
+build_property.MSBuildProjectDirectory = C:\DEV\general\practice\baitap-dotnet\blazor\ProfileProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/App.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/Component/ExperienceItem.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/Component/ExperienceItem.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50XEV4cGVyaWVuY2VJdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/ContentPage/Awards.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/ContentPage/Awards.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcQXdhcmRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/ContentPage/Education.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/ContentPage/Education.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcRWR1Y2F0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/ContentPage/Expericence.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/ContentPage/Expericence.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcRXhwZXJpY2VuY2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/ContentPage/Interests.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/ContentPage/Interests.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcSW50ZXJlc3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/ContentPage/ProfileTitle.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/ContentPage/ProfileTitle.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcUHJvZmlsZVRpdGxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/ContentPage/Skill.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/ContentPage/Skill.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcU2tpbGwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/Counter.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/Icon/AwardsIcon.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/Icon/AwardsIcon.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWNvblxBd2FyZHNJY29uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/Icon/CheckIcon.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/Icon/CheckIcon.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWNvblxDaGVja0ljb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/Icon/Html5.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/Icon/Html5.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWNvblxIdG1sNS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/Index.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Shared/SurveyPrompt.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/_Imports.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Shared/MainLayout.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-m67dakt9q2
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Shared/NavMenu.razor]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-b4zl856e6r
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/Error.cshtml]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/.NET/dotnet-cybersoft/baitap/blazor/ProfileProject/Pages/_Host.cshtml]
+[C:/DEV/general/practice/baitap-dotnet/blazor/ProfileProject/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
