@@ -1,5 +1,68 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Customer Contact Form</PageTitle>
 
-<Page />
+<div class="contact-form">
+    <h1>Customer Contact Form</h1>
+    <EditForm OnValidSubmit="Submit">
+        <DataAnnotationValidator />
+        <div class="mb-3">
+            <label for="fullName" class="form-label">Full Name *</label>
+            <input type="text" class="form-control" id="fullName" @bind="@model.FullName"
+                placeholder="Enter your full name" required>
+            <ValidatioinMessage class="form-text" For="@(() => model.FullName)" />
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email *</label>
+            <input type="email" class="form-control" id="email" @bind="@model.Email" placeholder="Enter your email"
+                required>
+            <ValidatioinMessage class="form-text" For="@(() => model.FullName)" />
+            <div class="form-text">Please enter a valid email address.</div>
+        </div>
+        <div class="mb-3">
+            <label for="phoneNumber" class="form-label">Phone Number *</label>
+            <input type="tel" class="form-control" id="phoneNumber" @bind="@model.PhoneNumber"
+                placeholder="Enter your phone number" required>
+            <ValidatioinMessage class="form-text" For="@(() => model.FullName)" />
+            <div class="form-text">Phone number must be 10-12 digits.</div>
+        </div>
+        <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="address" @bind="@model.Address"
+                placeholder="Enter your address">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message *</label>
+            <textarea class="form-control" id="message" rows="3" @bind="@model.Message" placeholder="Enter your message"
+                required></textarea>
+            <ValidatioinMessage class="form-text" For="@(() => model.FullName)" />
+            <div class="form-text">Message must be at least 10 characters long.</div>
+        </div>
+        <div class="mb-3">
+            <label for="selectService" class="form-label">Select Service *</label>
+            <select @bind="@model.ServiceId" class="form-select" id="selectService" required>
+                <option value="">Choose...</option>
+
+                @foreach (var item in Services.ListServices)
+                {
+                    <option value="@item.Value">@item.Name</option>
+                }
+            </select>
+            <ValidatioinMessage class="form-text" For="@(() => model.FullName)" />
+            <div class="form-text">Please select a service.</div>
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="terms" required>
+            <label class="form-check-label" for="terms">I agree to the terms and conditions *</label>
+            <ValidatioinMessage class="form-text" For="@(() => model.FullName)" />
+            <div class="form-text">You must agree before submitting.</div>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+
+    </EditForm>
+</div>
+
+@code {
+    [Parameter]
+    public CustomerContact model { get; set; } = new CustomerContact();
+}
