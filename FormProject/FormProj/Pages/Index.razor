@@ -1,16 +1,9 @@
 ﻿@page "/"
 
-<PageTitle>Wallet</PageTitle>
+<PageTitle>Index</PageTitle>
 
-<div class="container">
-    <WalletInfo info=@info/>
+<h1>Hello, world!</h1>
 
-    <Transactions listTransaction=@listTransaction />
-</div>
+Welcome to your new app.
 
-@code {
-    public WalletInfoViewModel info { get; set; } = new WalletInfoViewModel();
-    public TransactionInfo createTransactionModel { get; set; } = new TransactionInfo();
-
-    public List<TransactionInfo> listTransaction { get; set; } = new List<TransactionInfo>(); 
-}
+<SurveyPrompt Title="How is Blazor working for you?" />
