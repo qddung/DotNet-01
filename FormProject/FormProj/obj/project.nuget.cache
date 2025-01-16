@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t6+o3MxH34I=",
+  "dgSpecHash": "0KXo8B0umXA=",
   "success": true,
-  "projectFilePath": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\FormProject\\FormProj\\FormProj.csproj",
+  "projectFilePath": "C:\\DEV\\general\\practice\\baitap-dotnet\\FormProject\\FormProj\\FormProj.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.i3solution.net.au/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }
