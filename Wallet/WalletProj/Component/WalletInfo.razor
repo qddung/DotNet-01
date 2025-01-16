@@ -1,0 +1,27 @@
+@namespace FormProj.Component
+<section id="balance" class="card container-fluid bg-dark text-light">
+    <div class="card-body text-center flex-column">
+        <h3>@info.Title</h3>
+        <h2>$@info.Money</h2>
+        <p>Total Balance</p>
+        <div class="d-flex gap-3 justify-content-center" role="group">
+            <button data-bs-toggle="modal" @onclick="@(() => handleClick(TransactionType.Deposit))"
+                data-bs-target="#@ModalName" type="button" class="btn btn-success">Deposit</button>
+            <button data-bs-toggle="modal" data-bs-target="#@ModalName" type="button"
+                @onclick="@(() => handleClick(TransactionType.Withdraw))" class="btn btn-danger">Withdraw</button>
+        </div>
+    </div>
+</section>
+
+@code {
+    [Parameter]
+    public WalletInfoViewModel info { get; set; } = new WalletInfoViewModel();
+    [Parameter]
+    public string ModalName { get; set; } = "";
+    [Parameter]
+    public EventCallBack<TransactionType> viewCreateTransactionCallback { get; set; }
+    public async void handleClick(TransactionType type)
+    {
+        await viewCreateTransactionCallback.InvokeAsync(type);
+    }
+}

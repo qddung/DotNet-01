@@ -1,9 +1,37 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Wallet</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="container">
+    <WalletInfo info=@info ModalName="@ModalId" viewCreateTransactionCallback="openModalCreateTransaction"
+        resetModel="ResetCreateTransactionModel" />
 
-Welcome to your new app.
+    <Transactions listTransaction=@listTransaction />
+    <CreateTransactionModal ModalId="@ModalId" createTransactionCallback="createTransaction"
+        closeModal="ResetCreateTransactionModel" />
+</div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code {
+    public WalletInfoViewModel info { get; set; } = new WalletInfoViewModel();
+    public string ModalId { get; set; } = "CreateTransaction";
+    public TransactionInfo createTransactionModel { get; set; } = null as TransactionInfo;
+    public void openModalCreateTransaction(TransactionType type)
+    {
+        createTransactionModel = new TransactionInfo()
+            {
+                TransactionType = type;
+            }
+    }
+
+    public void ResetCreateTransactionModel()
+    {
+        createTransactionModel = null;
+    }
+
+    public void createTransaction(TransactionInfo createInfo)
+    {
+        listTransaction.Add(createInfo);
+    }
+
+    public List<TransactionInfo> listTransaction { get; set; } = new List<TransactionInfo>();
+}
