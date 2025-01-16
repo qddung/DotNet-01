@@ -1,4 +1,4 @@
-@namespace FormProj.Component
+@namespace WalletProj.Component
 <section id="balance" class="card container-fluid bg-dark text-light">
     <div class="card-body text-center flex-column">
         <h3>@info.Title</h3>
@@ -19,7 +19,7 @@
     [Parameter]
     public string ModalName { get; set; } = "";
     [Parameter]
-    public EventCallBack<TransactionType> viewCreateTransactionCallback { get; set; }
+    public EventCallback<TransactionType> viewCreateTransactionCallback { get; set; }
     public async void handleClick(TransactionType type)
     {
         await viewCreateTransactionCallback.InvokeAsync(type);

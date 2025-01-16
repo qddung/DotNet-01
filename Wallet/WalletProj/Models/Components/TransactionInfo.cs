@@ -1,4 +1,4 @@
-namespace FormProj.Models.Components;
+namespace WalletProj.Models.Components;
 public enum TransactionType : int
 {
     None = 0,

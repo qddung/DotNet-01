@@ -1,29 +1,32 @@
-@if (createTransactionModel != null)
-{
-    <div class="modal" tabindex="-1" id="@ModalId">
+
+ <div class="modal" tabindex="-1" id="@ModalId">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">@Title money</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <input type="number" class="form-control" placeholder="Money">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" @onclick="@(() => _createTransaction())"
-                        data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary" @onclick="@(() => _closeModal())">OK</button>
-                </div>
+                @if (createTransactionModel != null)
+                {
+                    <div class="modal-body">
+                        <input type="number" class="form-control" placeholder="Money" @bind=@createTransactionModel.Money>
+                    </div>
+                    <div class="modal-footer">
+                    
+                        <button type="button" class="btn btn-secondary" @onclick="@(() => _closeModal())" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                        <button type="button" class="btn btn-primary" @onclick="@(() => _createTransaction(@createTransactionModel))"
+                            data-bs-dismiss="modal">OK</button>
+                    </div>
+                }
+                
             </div>
         </div>
     </div>
-}
 
 
 @code {
     [Parameter]
-    public TransactionInfo createTransactionModel { get; set; } = new TransactionInfo();
+    public TransactionInfo createTransactionModel { get; set; }
     public string Title
     {
         get
@@ -35,16 +38,16 @@
     [Parameter]
     public string ModalId { get; set; } = "";
     [Parameter]
-    public EventCallBack<TransactionInfo> createTransactionCallback { get; set; }
+    public EventCallback<TransactionInfo> createTransactionCallback { get; set; }
     [Parameter]
-    public EventCallBack closeModal { get; set; }
+    public EventCallback closeModal { get; set; }
 
     public async void _closeModal()
     {
         await closeModal.InvokeAsync();
     }
-    public async void _createTransaction()
+    public async void _createTransaction(TransactionInfo model)
     {
-        await createTransactionCallback.InvokeAsync(createTransactionModel.TransactionType);
+        await createTransactionCallback.InvokeAsync(model);
     }
 }

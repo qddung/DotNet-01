@@ -3,11 +3,10 @@
 <PageTitle>Wallet</PageTitle>
 
 <div class="container">
-    <WalletInfo info=@info ModalName="@ModalId" viewCreateTransactionCallback="openModalCreateTransaction"
-        resetModel="ResetCreateTransactionModel" />
+    <WalletInfo info=@info ModalName="@ModalId" viewCreateTransactionCallback="openModalCreateTransaction"/>
 
     <Transactions listTransaction=@listTransaction />
-    <CreateTransactionModal ModalId="@ModalId" createTransactionCallback="createTransaction"
+    <CreateTransactionModal createTransactionModel="@createTransactionModel" ModalId="@ModalId" createTransactionCallback="createTransaction"
         closeModal="ResetCreateTransactionModel" />
 </div>
 
@@ -19,17 +18,23 @@
     {
         createTransactionModel = new TransactionInfo()
             {
-                TransactionType = type;
-            }
+                TransactionType = type,
+            };
+            string jsonString = JsonSerializer.Serialize(createTransactionModel);
+
+        Console.WriteLine(jsonString);
     }
 
     public void ResetCreateTransactionModel()
     {
-        createTransactionModel = null;
+        createTransactionModel = null as TransactionInfo;
     }
 
     public void createTransaction(TransactionInfo createInfo)
     {
+        string jsonString = JsonSerializer.Serialize(createInfo);
+
+        Console.WriteLine(jsonString);
         listTransaction.Add(createInfo);
     }
 

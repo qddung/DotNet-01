@@ -1,4 +1,4 @@
-namespace FormProj.Models.Components;
+namespace WalletProj.Models.Components;
 public class WalletInfoViewModel
 {
     public string Title { get; set; } = "Wallet";

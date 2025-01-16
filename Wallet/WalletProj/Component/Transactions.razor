@@ -1,4 +1,4 @@
-@namespace FormProj.Component
+@namespace WalletProj.Component
 <section id="transaction-history" class="mt-4">
     <h5 class="text-center">Transaction History </h5>
     <table class="table table-bordered text-center">
@@ -13,7 +13,7 @@
         <tbody>
             @foreach (var t in listTransaction)
             {
-                string dateFormat = t.CreateDate.ToString("dd MM hh:mmtt").ToLower();
+                string dateFormat = t.CreateDate.ToString("dd/MM hh:mmtt").ToLower();
                 if (t.TransactionType == TransactionType.Deposit)
                 {
                     <tr class="table-success">

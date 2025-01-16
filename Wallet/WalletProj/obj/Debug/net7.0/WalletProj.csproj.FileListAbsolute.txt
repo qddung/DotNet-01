@@ -1,0 +1,8 @@
+C:\DEV\general\practice\baitap-dotnet\Wallet\WalletProj\obj\Debug\net7.0\WalletProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\general\practice\baitap-dotnet\Wallet\WalletProj\obj\Debug\net7.0\WalletProj.AssemblyInfoInputs.cache
+C:\DEV\general\practice\baitap-dotnet\Wallet\WalletProj\obj\Debug\net7.0\WalletProj.AssemblyInfo.cs
+C:\DEV\general\practice\baitap-dotnet\Wallet\WalletProj\obj\Debug\net7.0\WalletProj.csproj.CoreCompileInputs.cache
+C:\DEV\general\practice\baitap-dotnet\Wallet\WalletProj\obj\Debug\net7.0\WalletProj.MvcApplicationPartsAssemblyInfo.cache
+C:\DEV\general\practice\baitap-dotnet\Wallet\WalletProj\obj\Debug\net7.0\WalletProj.RazorAssemblyInfo.cache
+C:\DEV\general\practice\baitap-dotnet\Wallet\WalletProj\obj\Debug\net7.0\WalletProj.RazorAssemblyInfo.cs
+C:\DEV\general\practice\baitap-dotnet\Wallet\WalletProj\obj\Debug\net7.0\WalletProj.sourcelink.json
