@@ -31,6 +31,7 @@
     {
         get
         {
+            if(createTransactionModel == null) return "";
             if (createTransactionModel.TransactionType == TransactionType.Deposit) return "Deposit";
             return "Withdraw";
         }
