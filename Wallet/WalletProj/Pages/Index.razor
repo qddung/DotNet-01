@@ -3,11 +3,12 @@
 <PageTitle>Wallet</PageTitle>
 
 <div class="container">
-    <WalletInfo info=@info ModalName="@ModalId" viewCreateTransactionCallback="openModalCreateTransaction"/>
+    <WalletInfo info=@info ModalName="@ModalId"
+        viewCreateTransactionCallback="openModalCreateTransaction" />
 
     <Transactions listTransaction=@listTransaction />
-    <CreateTransactionModal createTransactionModel="@createTransactionModel" ModalId="@ModalId" createTransactionCallback="createTransaction"
-        closeModal="ResetCreateTransactionModel" />
+    <CreateTransactionModal createTransactionModel="@createTransactionModel" ModalId="@ModalId"
+        createTransactionCallback="createTransaction" closeModal="ResetCreateTransactionModel" />
 </div>
 
 @code {
@@ -20,7 +21,7 @@
             {
                 TransactionType = type,
             };
-            string jsonString = JsonSerializer.Serialize(createTransactionModel);
+        string jsonString = JsonSerializer.Serialize(createTransactionModel);
 
         Console.WriteLine(jsonString);
     }
@@ -36,6 +37,14 @@
 
         Console.WriteLine(jsonString);
         listTransaction.Add(createInfo);
+        if (createInfo.TransactionType == TransactionType.Deposit)
+        {
+            info.Money += createInfo.Money;
+        }
+        else
+        {
+            info.Money -= createInfo.Money;
+        }
     }
 
     public List<TransactionInfo> listTransaction { get; set; } = new List<TransactionInfo>();
