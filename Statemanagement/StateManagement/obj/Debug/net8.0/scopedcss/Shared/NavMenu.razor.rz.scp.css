@@ -1,0 +1,68 @@
+.navbar-toggler[b-cgmpwz86ag] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-cgmpwz86ag] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-cgmpwz86ag] {
+    font-size: 1.1rem;
+}
+
+.oi[b-cgmpwz86ag] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-cgmpwz86ag] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-cgmpwz86ag] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-cgmpwz86ag] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-cgmpwz86ag]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-cgmpwz86ag]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-cgmpwz86ag]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-cgmpwz86ag] {
+        display: none;
+    }
+
+    .collapse[b-cgmpwz86ag] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+    
+    .nav-scrollable[b-cgmpwz86ag] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}

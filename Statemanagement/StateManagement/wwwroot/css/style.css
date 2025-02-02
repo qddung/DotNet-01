@@ -1,0 +1,37 @@
+.burger-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.burger-layer {
+  width: 150px;
+  height: 20px;
+  margin: 3px 0;
+  border-radius: 10px;
+}
+.bun-top {
+  background: #d2691e;
+  height: 40px;
+}
+.bun-bottom {
+  background: #d2691e;
+  height: 30px;
+}
+.salad {
+  background: #4caf50;
+}
+.cheese {
+  background: #ffd700;
+}
+.beef {
+  background: #8b4513;
+  height: 25px;
+}
+.control-panel {
+  text-align: center;
+}
+.btn-control {
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+}
