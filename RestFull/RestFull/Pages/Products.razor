@@ -1,0 +1,45 @@
+@inject ProductService prodService
+<div class="container mt-5">
+    <h1 class="mb-4">Store List</h1>
+    <button class="btn btn-primary mb-3">Create Store</button>
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Alias</th>
+                <th scope="col">Description</th>
+                <th scope="col">Image</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in prodService.lstProduct.Select((value, index) => new { value, index }))
+            {
+                <tr>
+                    <th scope="row">@product.index</th>
+                    <td>@product.value.name</td>
+                    <td>@product.value.alias</td>
+                    <td>@product.value.description</td>
+                    <td><img src=@product.value.image alt="Store Image"></td>
+                    <td>
+                        <button class="btn btn-success btn-sm">Edit</button>
+                        <button class="btn btn-danger btn-sm">Del</button>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+@code {
+    public void ViewAddNewProduct()
+    {
+        
+    }
+
+    public void ViewEditProduct()
+    {
+
+    }
+}

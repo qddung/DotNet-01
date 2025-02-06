@@ -1,9 +1,20 @@
 ﻿@page "/"
+@inject ProductService prodService
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<Products />
 
-Welcome to your new app.
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        prdService.OnChange += StateHasChanged;
+        await prodService.GetAllProductApi();
+    }
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    public void Dispose()
+    {
+        prdService.OnChange -= StateHasChanged;
+
+    }
+}
