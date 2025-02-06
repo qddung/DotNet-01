@@ -1,0 +1,93 @@
+@page "/edit-store/{storeId}"
+@layout HomeMasterPage
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.Forms
+@using System.Text.Json
+@inject StoreService storeService
+@inject NavigationManager Navigation
+<div class="container">
+    <EditForm Model="@storeService.storeEdit" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <InputText id="name" class="form-control" @bind-Value:get="storeService.storeEdit.name"
+                @bind-Value:set="@OnChangeName" />
+            <ValidationMessage For="@(() => storeService.storeEdit.name)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Alias</label>
+            <InputText id="name" class="form-control" @bind-Value="storeService.storeEdit.alias" />
+            <ValidationMessage For="@(() => storeService.storeEdit.name)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="latitude" class="form-label">Latitude</label>
+            <InputText id="latitude" class="form-control" @bind-Value="storeService.storeEdit.latitude" />
+            <ValidationMessage For="@(() => storeService.storeEdit.latitude)" />
+        </div>
+        <div class="mb-3">
+            <label for="longtitude" class="form-label">Longtitude</label>
+            <InputText id="longtitude" class="form-control" @bind-Value="storeService.storeEdit.longtitude" />
+            <ValidationMessage For="@(() => storeService.storeEdit.longtitude)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <InputTextArea id="description" class="form-control" @bind-Value="storeService.storeEdit.description" />
+            <ValidationMessage For="@(() => storeService.storeEdit.description)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="imgLink" class="form-label">Image URL</label>
+            <InputText id="imgLink" class="form-control" @bind-Value="storeService.storeEdit.image" />
+            <ValidationMessage For="@(() => storeService.storeEdit.image)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+    </EditForm>
+    <div class="alert alert-danger">@res</div>
+</div>
+
+@code {
+    [Parameter]
+    public string StoreId { get; set; }
+    private void OnChangeName(string value)
+    {
+        storeService.storeEdit.name = value;
+        storeService.storeEdit.alias = Ulti.GenerateSlug(storeService.storeEdit.name);
+    }
+    private string res { get; set; } = "";
+    protected override async Task OnInitializedAsync()
+    {
+        storeService.OnChange += StateHasChanged;
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (StoreId != default)
+        {
+            int storeid;
+            bool getStoreId = int.TryParse(StoreId, out storeid);
+            if (getStoreId) await storeService.GetStoreByIdEditApi(storeid);
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        res = await storeService.UpdateStoreApi();
+        StateHasChanged();
+    }
+    public void Dispose()
+    {
+        storeService.OnChange -= StateHasChanged;
+
+    }
+    private void Cancel()
+    {
+        // Handle cancel action
+        Navigation.NavigateTo("/");
+    }
+}

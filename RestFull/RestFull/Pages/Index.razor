@@ -1,20 +1,70 @@
 ﻿@page "/"
-@inject ProductService prodService
+@inject StoreService storeService
+@inject NavigationManager nav
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Store</PageTitle>
 
-<Products />
+<div class="rz-w-50 rz-mb-{5}">
+
+    <RadzenText class="rz-mb-{3}" TextStyle="TextStyle.H1">Store List</RadzenText>
+
+    <div class="rz-mb-{3}">
+        <RadzenButton Click=@(args => { ViewAddNewStore();}) Text="Create store" ButtonStyle="ButtonStyle.Primary" />
+    </div>
+    <div>
+        <RadzenFormField class="rz-mb-{3}" Text="Text" Variant="Variant.Text" Style="width: 50%;">
+            <RadzenTextBox @bind-Value="@storeService.searchStoreModel.Keyword" />
+        </RadzenFormField>
+    </div>
+
+    <RadzenDataGrid Data="@storeService.lstStore" PagerPosition="@PagerPosition.Bottom" AllowPaging="true"
+        AllowSorting="true" Page="@OnPage">
+        <Columns>
+            <RadzenDataGridColumn Property="id" Title="Id" />
+            <RadzenDataGridColumn Property="name" Title="Name" />
+            <RadzenDataGridColumn Property="alias" Title="Alias" />
+            <RadzenDataGridColumn Property="description" Title="Description" />
+            <RadzenDataGridColumn Title="Image">
+                <Template Context="storeItem">
+                    <RadzenImage Path=@storeItem.image Style="width: 50px; height: 50px;" AlternateText="url image" />
+                </Template>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn Title="Actions">
+                <Template Context="storeItem">
+                    <RadzenButton Click=@(args => ViewAddNewStore()) Text="Edit" ButtonStyle="ButtonStyle.Primary" />
+                    <RadzenButton Click=@(args => DeleteStore(storeItem.id)) Text="Delete"
+                        ButtonStyle="ButtonStyle.Danger" />
+                </Template>
+            </RadzenDataGridColumn>
+        </Columns>
+    </RadzenDataGrid>
+</div>
 
 @code {
     protected override async Task OnInitializedAsync()
     {
-        prdService.OnChange += StateHasChanged;
-        await prodService.GetAllProductApi();
+        storeService.OnChange += StateHasChanged;
+        await storeService.GetPagingStore();
     }
 
     public void Dispose()
     {
-        prdService.OnChange -= StateHasChanged;
+        storeService.OnChange -= StateHasChanged;
 
+    }
+
+    public void ViewAddNewStore()
+    {
+        nav.NavigateTo("/addnew-store", false);
+    }
+
+    public void DeleteStore(int storeId)
+    {
+        @* execute delete *@
+        storeService.DeleteStoreByIdApi(storeId);
+    }
+
+    void OnPage(PagerEventArgs pageEvent)
+    {
     }
 }

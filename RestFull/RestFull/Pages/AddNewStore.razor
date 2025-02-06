@@ -1,0 +1,81 @@
+@page "/addnew-store"
+@layout HomeMasterPage
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.Forms
+@using System.Text.Json
+@inject StoreService storeService
+@inject NavigationManager Navigation
+<div class="container">
+    <EditForm Model="@store" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <InputText id="name" class="form-control" @bind-Value:get="store.name" @bind-Value:set="OnChangeName" />
+            <ValidationMessage For="@(() => store.name)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Alias</label>
+            <InputText id="name" class="form-control" @bind-Value="store.alias" />
+            <ValidationMessage For="@(() => store.name)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="latitude" class="form-label">Latitude</label>
+            <InputText id="latitude" class="form-control" @bind-Value="store.latitude" />
+            <ValidationMessage For="@(() => store.latitude)" />
+        </div>
+        <div class="mb-3">
+            <label for="longtitude" class="form-label">Longtitude</label>
+            <InputText id="longtitude" class="form-control" @bind-Value="store.longtitude" />
+            <ValidationMessage For="@(() => store.longtitude)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <InputTextArea id="description" class="form-control" @bind-Value="store.description" />
+            <ValidationMessage For="@(() => store.description)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="imgLink" class="form-label">Image URL</label>
+            <InputText id="imgLink" class="form-control" @bind-Value="store.image" />
+            <ValidationMessage For="@(() => store.image)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+    </EditForm>
+    <div class="alert alert-danger">@res</div>
+</div>
+
+@code {
+    private StoreAddNew store = new StoreAddNew();
+    private void OnChangeName(string value)
+    {
+        store.name = value;
+        store.alias = Ulti.GenerateSlug(store.name);
+    }
+
+    private string res { get; set; } = "";
+    protected override async Task OnInitializedAsync()
+    {
+        storeService.OnChange += StateHasChanged;
+    }
+    private async Task HandleValidSubmit()
+    {
+        res = await storeService.AddNewStore(store);
+        StateHasChanged();
+    }
+    public void Dispose()
+    {
+        storeService.OnChange -= StateHasChanged;
+
+    }
+    private void Cancel()
+    {
+        // Handle cancel action
+        Navigation.NavigateTo("/");
+    }
+}
