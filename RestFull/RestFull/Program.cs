@@ -1,12 +1,16 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using RestFull.Data;
+using RestFull.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+//Khai báo service (DI)
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<ProductService>();
 builder.Services.AddSingleton<WeatherForecastService>();
 
 var app = builder.Build();

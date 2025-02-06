@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\ResfFull\\RestFull\\RestFull.csproj": {}
+    "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\RestFull\\RestFull\\RestFull.csproj": {}
   },
   "projects": {
-    "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\ResfFull\\RestFull\\RestFull.csproj": {
+    "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\RestFull\\RestFull\\RestFull.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\ResfFull\\RestFull\\RestFull.csproj",
+        "projectUniqueName": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\RestFull\\RestFull\\RestFull.csproj",
         "projectName": "RestFull",
-        "projectPath": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\ResfFull\\RestFull\\RestFull.csproj",
+        "projectPath": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\RestFull\\RestFull\\RestFull.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\ResfFull\\RestFull\\obj\\",
+        "outputPath": "C:\\DEV\\.NET\\dotnet-cybersoft\\baitap\\RestFull\\RestFull\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",

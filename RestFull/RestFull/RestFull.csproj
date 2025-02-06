@@ -6,4 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+ <Target Name="RunNodeScripts" BeforeTargets="Build">
+    <!-- Cài đặt dependencies nếu cần -->
+    <!-- <Exec Command="npm install" /> -->
+
+    <!-- Chạy script để biên dịch SASS -->
+    <!-- <Exec Command="npm run build-sass" /> -->
+  </Target>
 </Project>
