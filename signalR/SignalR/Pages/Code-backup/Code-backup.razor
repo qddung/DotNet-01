@@ -1,0 +1,79 @@
+@inject ProductCategoryService service
+
+<div class="shoes-store-container d-flex">
+    <!-- Sidebar for Filtering -->
+    <div class="sidebar me-4">
+        <h4 class="sidebar-title">Shoes store</h4>
+
+        @* <RadzenListBox TValue="string" Value="@service.categorySelected" Data="@getCategoryOptions()"
+        Class="filter-list" TextProperty="@nameof(CategoryOption.Name)" ValueProperty="@nameof(CategoryOption.Id)"
+                       Change="@(args => changeCategory((string)args))" /> *@
+
+        @* <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center"
+            JustifyContent="JustifyContent.Center" Gap="0.5rem" class="rz-p-sm-12">
+            <RadzenLabel Text="Select Value" Component="DropDownTextValueProperties" />
+            <RadzenDropDown Open="@(() => Console.WriteLine("opened"))" Close="@(() => Console.WriteLine("closed"))"
+                @bind-Value=@selectedCategory Data=@getCategoryOptions() TextProperty="@nameof(CategoryOption.Name)"
+                ValueProperty="@nameof(CategoryOption.Id)" Style="width: 100%; max-width: 400px;"
+                Name="DropDownTextValueProperties" Change="@(args => changeCategory((string)args))" />
+        </RadzenStack> *@
+
+
+        <RadzenListBox TValue="string" Value="@selectedCategory" Data="@getCategoryOptions()" Class="filter-list"
+            TextProperty="@nameof(CategoryOption.Name)" ValueProperty="@nameof(CategoryOption.Id)"
+            Change="@(args => changeCategory(args))" />
+
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid">
+        @foreach (var product in service.GetProductOnCategory())
+        {
+            <div class="card">
+                <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">Price: $@product.Price</p>
+                    <RadzenButton Text="Detail" Click="() => ViewDetails(product.Id)" Class="btn btn-dark" />
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+
+    public List<CategoryOption> getCategoryOptions() => service.GetCategoryOptions();
+
+    public string selectedCategory { get; set; } = "";
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await service.InitPageData();
+        selectedCategory = service.categorySelected;
+    }
+
+    private void ViewDetails(string id)
+    {
+        // Implement detail view logic here
+    }
+
+    public void Dispose()
+    {
+        service.Dispose();
+    }
+
+    @* public void changeCategory(string value)
+    {
+        service.ChangeCategory(value);
+    } *@
+
+    public void changeCategory(object value)
+    {
+        string? val = value?.ToString() ?? "";
+        selectedCategory = val;
+        service.ChangeCategory(selectedCategory);
+    }
+
+}

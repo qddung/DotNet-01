@@ -1,10 +1,38 @@
 ﻿@using System.Net.Http
 @using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.Authorization
+
+@*Các thư viện để sử dụng 2waybinding*@
+@using Microsoft.AspNetCore.Components
 @using Microsoft.AspNetCore.Components.Forms
 @using Microsoft.AspNetCore.Components.Routing
+
+@* form validation *@
+@using System.ComponentModel.DataAnnotations
+
+
 @using Microsoft.AspNetCore.Components.Web
 @using Microsoft.AspNetCore.Components.Web.Virtualization
 @using Microsoft.JSInterop
 @using SignalR
 @using SignalR.Shared
+@using Radzen
+@using Radzen.Blazor
+
+
+@using SignalR.Mapper
+@using SignalR.ViewModels
+@using SignalR.Pages.Admin
+
+
+
+
+@* @using SignalR.vm *@
+@*import automapper xài cho tất cả component*@
+@using AutoMapper
+@using SignalR.Models
+@using SignalR.Services
+@using SignalR.Services.Admin
+@using SignalR.ViewModels.Category
+@using Microsoft.AspNetCore.WebUtilities;
+@using Microsoft.AspNetCore.SignalR;

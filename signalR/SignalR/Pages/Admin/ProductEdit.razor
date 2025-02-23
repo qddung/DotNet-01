@@ -1,0 +1,74 @@
+@page "/product-management/edit/{productId}"
+@inject NavigationManager Navigation
+@inject ProductService state
+
+<EditForm Model="@state.productEdit" OnValidSubmit="OnSubmit" class="product-form">
+    <DataAnnotationsValidator />
+    <h2 class="mb-4">Edit Product</h2>
+    <div class="mb-3">
+        <label class="form-label">Name:</label>
+        <RadzenTextBox @bind-Value="state.productEdit.name" class="form-control" />
+        <ValidationMessage For="@(() => state.productEdit.name)" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Alias:</label>
+        <RadzenTextBox @bind-Value="state.productEdit.alias" class="form-control" />
+        <ValidationMessage For="@(() => state.productEdit.alias)" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Price:</label>
+        <RadzenNumeric TValue="double" Step="0.1" @bind-Value="state.productEdit.price" class="form-control" />
+        <ValidationMessage For="@(() => state.productEdit.price)" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Description:</label>
+        <RadzenTextArea @bind-Value="state.productEdit.description" class="form-control" />
+        <ValidationMessage For="@(() => state.productEdit.description)" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Alias:</label>
+        <RadzenTextBox @bind-Value="state.productEdit.shortDescription" class="form-control" />
+        <ValidationMessage For="@(() => state.productEdit.shortDescription)" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Quantity:</label>
+        <RadzenNumeric TValue="int" Step="1" @bind-Value="state.productEdit.quantity" class="form-control" />
+        <ValidationMessage For="@(() => state.productEdit.quantity)" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Image Link:</label>
+        <RadzenTextBox @bind-Value="state.productEdit.imgLink" class="form-control" />
+        <ValidationMessage For="@(() => state.productEdit.imgLink)" class="text-danger" />
+    </div>
+    <div class="mb-3">
+        <RadzenButton Text="Edit Product" ButtonType="ButtonType.Submit" Class="btnF btn-primary" />
+        <RadzenButton Text="Cancel" Click="@OnCancel" Class="btn btn-secondary ms-2" />
+    </div>
+    <div class="mt-3">
+        <RadzenLink Text="<< Go back" Path="/product-management" Class="btn btn-link" />
+    </div>
+</EditForm>
+
+
+@code {
+    [Parameter]
+    public string productId { get; set; }
+
+    private async Task OnSubmit()
+    {
+        await state.UpdateProductApi();
+        Navigation.NavigateTo("/product-management");
+    }
+
+    private void OnCancel()
+    {
+        Navigation.NavigateTo("/product-management", false);
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        await state.GetProductByIdEditApi(productId);
+        
+    }
+
+}

@@ -1,0 +1,63 @@
+# 🔹 Build & Compiled Files
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.nuget
+*.nupkg
+*.snupkg
+
+# 🔹 Visual Studio & JetBrains Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+*.sln.iml
+.vscode/
+*.code-workspace
+.vscode/settings.json
+
+# 🔹 ASP.NET Core & Blazor
+secrets.json
+secrets/
+wwwroot/dist/
+wwwroot/_framework/
+wwwroot/css/
+wwwroot/js/
+wwwroot/libman.json
+
+# 🔹 Entity Framework & Database
+Migrations/
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# 🔹 Logs, Debug & Test Results
+logs/
+*.log
+coverage/
+TestResults/
+TestResults/
+
+# 🔹 Node.js & Frontend Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# 🔹 Docker & Deployment
+docker-compose.override.yml
+.dockerignore
+
+# 🔹 Local Environment Configs
+appsettings.Development.json
+appsettings.Local.json
+.env
+
+# 🔹 Ignore compiled CSS & JS
+*.min.js
+*.min.css
+*.map

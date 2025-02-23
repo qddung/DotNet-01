@@ -1,0 +1,19 @@
+@page "/radzen-listbox"
+
+<RadzenListBox TValue="string" Data="items"
+ @bind-Value="@selectedValue"
+ @* Change="@(args => OnChangeHandler(args))" *@
+    Style="width: 300px;" />
+
+<p>Selected Value: @selectedValue</p>
+
+@code {
+    private IEnumerable<string> items = new List<string>() { "Item 1", "Item 2", "Item 3", "Item 4" };
+    private string selectedValue { get; set; }
+
+    private void OnChangeHandler(object value)
+    {
+        selectedValue = value?.ToString() ?? "";
+        Console.WriteLine($"Selected: {selectedValue}");
+    }
+}

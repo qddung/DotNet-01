@@ -1,0 +1,198 @@
+/* Custom styles for the Add Product form */
+.product-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f3f6f9;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-form .form-label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.product-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.product-form .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.product-form .btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.product-form .btn-link:hover {
+    text-decoration: underline;
+}
+
+/* END Add Product form */
+
+
+/* ADMIN LIST */
+
+.shoes-store-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar-title {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.filter-list .rz-listbox {
+    background-color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.card-text {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-dark:hover {
+    background-color: #212529;
+}
+
+/* END ADMIN LIST */
+
+
+/* Product USER */
+
+
+.shoes-store-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+}
+
+.filter-list .rz-listbox {
+    background-color: #f3f6f9;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.product-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+}
+
+
+/* End Product index */

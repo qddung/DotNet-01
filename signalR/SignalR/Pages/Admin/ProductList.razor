@@ -1,0 +1,86 @@
+@page "/product-management"
+@inject NavigationManager Navigation
+@inject ProductService service
+
+<h3>Product Management</h3>
+
+<RadzenButton Text="Add new product" Class="btn btn-success mb-3" Click="AddProduct" />
+
+<div class="d-flex mb-3">
+    <RadzenTextBox @bind-Value="@service.searchKeyword" Placeholder="Search product..." Style="width: 300px;"
+        @onkeydown="Enter" />
+    <RadzenButton Text="Search" Class="btn btn-success ms-2" Click="SearchProduct" />
+</div>
+<RadzenDataGrid TItem="ProductDTO" PagerPosition="PagerPosition.Bottom" Data="@service.GetProductListAdminDTO()"
+    Page="@OnPage" AllowPaging="true" ShowPagingSummary="true" PageSize="@service.searchModel.PageSize"
+    IsLoading=@isLoading LoadData=@LoadData Count="service.CountItems">
+    <Columns>
+        <RadzenDataGridColumn TItem="ProductDTO" Property="Id" Title="Id" />
+        <RadzenDataGridColumn TItem="ProductDTO" Title="Image">
+            <Template Context="product">
+                <img src="@product.ImageUrl" width="50" />
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="ProductDTO" Property="Price" Title="Price" />
+        <RadzenDataGridColumn TItem="ProductDTO" Title="Actions">
+            <Template Context="product">
+                <RadzenButton Text="Edit" Class="btn btn-success me-2" Click="() => EditProduct(product.Id)" />
+                <RadzenButton Text="Del" Class="btn btn-danger" Click="() => DeleteProduct(product.Id)" />
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+@code {
+    private string searchTerm = "";
+    private async Task SearchProduct()
+    {
+        service.ChangePage(1);
+        await service.GetAllProductByBaseSearchPaging();
+    }
+
+    private void AddProduct()
+    {
+        Navigation.NavigateTo("/product-management/add");
+    }
+
+    private void EditProduct(string id)
+    {
+        Navigation.NavigateTo($"/product-management/edit/{id}");
+    }
+
+    public async Task DeleteProduct(string id)
+    {
+        await service.DeleteProductByIdApi(id);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await service.GetAllProductByBaseSearchPaging();
+    }
+
+    void OnPage(PagerEventArgs args)
+    {
+        int pageIndex = args.PageIndex > 0 ? args.PageIndex : 1;
+        service.ChangePage(pageIndex);
+    }
+
+    public async Task Enter(KeyboardEventArgs e)
+    {
+        if (e.Code == "Enter" || e.Code == "NumpadEnter")
+        {
+            await SearchProduct();
+        }
+    }
+
+
+    public bool isLoading { get; set; } = false;
+
+    async Task LoadData(LoadDataArgs args)
+    {
+        @* isLoading = true; *@
+        await Task.Yield();
+        await service.GetAllProductByBaseSearchPaging();
+        @* isLoading = false; *@
+    }
+}

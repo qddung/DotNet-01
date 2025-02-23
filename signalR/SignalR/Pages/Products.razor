@@ -1,0 +1,64 @@
+@inject ProductCategoryService service
+
+<div class="shoes-store-container d-flex">
+    <!-- Sidebar for Filtering -->
+    <div class="sidebar me-4">
+        <h4 class="sidebar-title">Shoes store</h4>
+
+        <RadzenListBox TValue="string" Value="@service.categorySelected" Data="@getCategoryOptions()"
+        Class="filter-list" TextProperty="@nameof(CategoryOption.Name)" ValueProperty="@nameof(CategoryOption.Id)"
+        Change="@(args => changeCategory((string)args))" />
+
+        @* <div>
+            <button @onclick="Click">Change</button>
+        </div> *@
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid">
+        @foreach (var product in service.GetProductOnCategory())
+        {
+            <div class="card">
+                <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">Price: $@product.Price</p>
+                    <RadzenButton Text="Detail" Click="() => ViewDetails(product.Id)" Class="btn btn-dark" />
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+
+    public List<CategoryOption> getCategoryOptions() => service.GetCategoryOptions();
+
+    public void Click()
+    {
+        Console.WriteLine("OASIDH");
+        service.ChangeCategory(getCategoryOptions().LastOrDefault().Id);
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await service.InitPageData();
+    }
+
+    private void ViewDetails(string id)
+    {
+        // Implement detail view logic here
+    }
+
+    public void Dispose()
+    {
+        service.Dispose();
+    }
+
+    public void changeCategory(string value)
+    {
+        service.ChangeCategory(value);
+    }
+
+}
