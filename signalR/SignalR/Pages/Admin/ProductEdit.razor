@@ -1,4 +1,5 @@
 @page "/product-management/edit/{productId}"
+@using Microsoft.AspNetCore.SignalR.Client
 @inject NavigationManager Navigation
 @inject ProductService state
 
@@ -54,9 +55,12 @@
     [Parameter]
     public string productId { get; set; }
 
+    private HubConnection? hubConnection;
+
     private async Task OnSubmit()
     {
         await state.UpdateProductApi();
+        hubConnection.InvokeAsync("LoadCategory");
         Navigation.NavigateTo("/product-management");
     }
 
@@ -68,7 +72,24 @@
     protected override async Task OnParametersSetAsync()
     {
         await state.GetProductByIdEditApi(productId);
-        
+
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+        .WithUrl(Navigation.ToAbsoluteUri("/product-hub"))
+        .Build();
+        await hubConnection.StartAsync();
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        state.Dispose();
+        if (hubConnection is not null)
+        {
+            await hubConnection.StopAsync();
+        }
     }
 
 }

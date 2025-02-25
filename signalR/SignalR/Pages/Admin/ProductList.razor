@@ -1,4 +1,5 @@
 @page "/product-management"
+@using Microsoft.AspNetCore.SignalR.Client
 @inject NavigationManager Navigation
 @inject ProductService service
 
@@ -39,6 +40,8 @@
         await service.GetAllProductByBaseSearchPaging();
     }
 
+    private HubConnection? hubConnection;
+
     private void AddProduct()
     {
         Navigation.NavigateTo("/product-management/add");
@@ -54,8 +57,22 @@
         await service.DeleteProductByIdApi(id);
     }
 
+    public void _loadPaging()
+    {
+        service.GetAllProductByBaseSearchPaging();
+    }
+
     protected override async Task OnInitializedAsync()
     {
+        hubConnection = new HubConnectionBuilder()
+        .WithUrl(Navigation.ToAbsoluteUri("/product-hub"))
+        .Build();
+
+        await hubConnection.StartAsync();
+        hubConnection.On("LoadProductsOnCategory", () =>
+        {
+            InvokeAsync(_loadPaging);
+        });
         await service.GetAllProductByBaseSearchPaging();
     }
 
@@ -82,5 +99,14 @@
         await Task.Yield();
         await service.GetAllProductByBaseSearchPaging();
         @* isLoading = false; *@
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        service.Dispose();
+        if (hubConnection is not null)
+        {
+            await hubConnection.StopAsync();
+        }
     }
 }
