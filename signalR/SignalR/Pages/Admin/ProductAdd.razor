@@ -1,4 +1,6 @@
 @page "/product-management/add"
+@using Microsoft.AspNetCore.SignalR.Client
+@using System.Threading.Tasks
 @inject ProductService state
 @inject NavigationManager Navigation
 
@@ -50,16 +52,36 @@
 </EditForm>
 
 @code {
+
+    private HubConnection? hubConnection;
     private ProductAddNew product = new ProductAddNew();
 
     private async Task OnSubmit()
     {
         await state.AddNewProduct(product);
+        // await hubConnection.SendAsync("LoadCategory
+        hubConnection.InvokeAsync("LoadCategory");
         Navigation.NavigateTo("/product-management");
     }
 
     private void OnCancel()
     {
         Navigation.NavigateTo("/product-management", false);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+        .WithUrl(Navigation.ToAbsoluteUri("/product-hub"))
+        .Build();
+        await hubConnection.StartAsync();
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        state.Dispose();
+        if(hubConnection is not null){
+            await hubConnection.StopAsync();
+        }
     }
 }

@@ -1,4 +1,7 @@
+@using Microsoft.AspNetCore.SignalR.Client
+@using System.Threading.Tasks
 @inject ProductCategoryService service
+@inject NavigationManager Navigation
 
 <div class="shoes-store-container d-flex">
     <!-- Sidebar for Filtering -->
@@ -6,8 +9,8 @@
         <h4 class="sidebar-title">Shoes store</h4>
 
         <RadzenListBox TValue="string" Value="@service.categorySelected" Data="@getCategoryOptions()"
-        Class="filter-list" TextProperty="@nameof(CategoryOption.Name)" ValueProperty="@nameof(CategoryOption.Id)"
-        Change="@(args => changeCategory((string)args))" />
+                       Class="filter-list" TextProperty="@nameof(CategoryOption.Name)" ValueProperty="@nameof(CategoryOption.Id)"
+                       Change="@(args => changeCategory((string)args))" />
 
         @* <div>
             <button @onclick="Click">Change</button>
@@ -34,15 +37,28 @@
 
     public List<CategoryOption> getCategoryOptions() => service.GetCategoryOptions();
 
-    public void Click()
+    @* public void Click()
     {
-        Console.WriteLine("OASIDH");
         service.ChangeCategory(getCategoryOptions().LastOrDefault().Id);
-    }
+    } *@
 
-
+    private HubConnection? hubConnection;
     protected override async Task OnInitializedAsync()
     {
+
+        hubConnection = new HubConnectionBuilder()
+        .WithUrl(Navigation.ToAbsoluteUri("/product-hub"))
+        .Build();
+
+        await hubConnection.StartAsync();
+        @* hubConnection.On("LoadProductsOnCategory", () =>
+        {
+            Action load = delegate ()
+            {
+                service.ChangeCategory(service.categorySelected);
+            };
+            InvokeAsync(load);
+        }); *@
         await service.InitPageData();
     }
 
@@ -51,14 +67,18 @@
         // Implement detail view logic here
     }
 
-    public void Dispose()
+    public async ValueTask DisposeAsync()
     {
         service.Dispose();
+        if(hubConnection is not null){
+            await hubConnection.StopAsync();
+        }
     }
 
     public void changeCategory(string value)
     {
         service.ChangeCategory(value);
     }
+
 
 }

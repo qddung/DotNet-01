@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.ResponseCompression;
 using Radzen;
 using SignalR.Data;
 using SignalR.Services;
 using SignalR.Services.Admin;
 using AutoMapper;
 using SignalR.Mapper;
+using SignalR.Hubs;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,7 +19,17 @@ builder.Services.AddServerSideBlazor();
 
 // register dependencies
 builder.Services.AddHttpClient();
-builder.Services.AddSignalR();
+
+// inject signalR to IserviceCollection
+builder.Services.AddSignalR(e =>
+{
+    e.MaximumReceiveMessageSize = 102400000;
+});
+builder.Services.AddResponseCompression(opts =>
+{
+    opts.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(
+        ["application/octet-stream"]);
+});
 
 
 
@@ -54,9 +66,17 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 
+// app.UseResponseCompression();
+
 app.UseRouting();
 
-app.MapBlazorHub();
+
+
+app.MapHub<ProductHub>("/product-hub"); // hub listen to specific path
+app.MapBlazorHub(options =>
+{
+    options.TransportMaxBufferSize = 10 * 1024 * 1024;
+});  
 
 app.MapFallbackToPage("/_Host");
 
