@@ -9,8 +9,8 @@
         <h4 class="sidebar-title">Shoes store</h4>
 
         <RadzenListBox TValue="string" Value="@service.categorySelected" Data="@getCategoryOptions()"
-                       Class="filter-list" TextProperty="@nameof(CategoryOption.Name)" ValueProperty="@nameof(CategoryOption.Id)"
-                       Change="@(args => changeCategory((string)args))" />
+            Class="filter-list" TextProperty="@nameof(CategoryOption.Name)" ValueProperty="@nameof(CategoryOption.Id)"
+            Change="@(args => changeCategory((string)args))" />
 
         @* <div>
             <button @onclick="Click">Change</button>
@@ -51,15 +51,16 @@
         .Build();
 
         await hubConnection.StartAsync();
-        @* hubConnection.On("LoadProductsOnCategory", () =>
+        hubConnection.On("LoadProductsOnCategory", () =>
         {
-            Action load = delegate ()
-            {
-                service.ChangeCategory(service.categorySelected);
-            };
-            InvokeAsync(load);
-        }); *@
+            InvokeAsync(loadCategory);
+        });
         await service.InitPageData();
+    }
+
+    public void loadCategory()
+    {
+        service.ChangeCategory(service.categorySelected);
     }
 
     private void ViewDetails(string id)
@@ -70,7 +71,8 @@
     public async ValueTask DisposeAsync()
     {
         service.Dispose();
-        if(hubConnection is not null){
+        if (hubConnection is not null)
+        {
             await hubConnection.StopAsync();
         }
     }
