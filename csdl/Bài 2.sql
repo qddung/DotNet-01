@@ -1,0 +1,6 @@
+DELETE FROM KhachHang WHERE MaKH = 5;
+DELETE FROM Sach WHERE MaSach = 3;
+DELETE FROM TacGia WHERE MaTacGia = 7;
+
+
+
